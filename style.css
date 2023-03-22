@@ -3,3 +3,30 @@
     background: #E5E5E5;
     height:3099px;
 }
+
+.image{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 15%;
+    top: 0px;
+}
+
+.photo {
+    vertical-align: middle;
+    border-radius: 50%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 15%;
+    top: 40px;
+}
+
+.sidebar {
+    background: #FFFFFF;
+    position: absolute;
+    width: 305px;
+    height: 1315px;
+    left: 0px;
+    top: 0px;
+}
