@@ -105,10 +105,22 @@
     position: absolute;
     width: 16.45px;
     height: 17.82px;
-    left: 900.46px;
+    left: 890.46px;
     top: 79.34px;
     border: 2px solid rgba(255, 180, 0, 0.8);
     transform: matrix(0.87, 0.49, -0.39, 0.92, 0, 0);
+    z-index: 1000;
+}
+.polygon{
+    position: absolute;
+    box-sizing: border-box;
+    width: 0px;
+    height: 0px;
+    left: 900px;
+    top: 500px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgba(255, 46, 0, 0.8);
 }
 
 .image1{
@@ -117,5 +129,35 @@
     height: 522.89px;
     left: 570.68px;
     top: 9.11px;
+}
+
+.button{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 51px;
+    top: 380px;
+    left: 40px;
+    background: #FFB400;
+    border-radius: 5px;
+}
+.hireMeFont{
+    position: absolute;
+    width: 65px;
+    height: 19px;
+    left: calc(50% - 65px/2 - 12.5px);
+    top: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2B2B2B;
+
+
 }
 
