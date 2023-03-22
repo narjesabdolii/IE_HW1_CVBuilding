@@ -3,3 +3,69 @@
     background: #E5E5E5;
     height:3099px;
 }
+
+.education{
+    position: absolute;
+    width: 970px;
+    height: 632px;
+    left: 310px;
+    top: 1507px;
+    background: #FFFFFF;
+}
+
+.university{
+    position: absolute;
+    width: 184px;
+    height: 22px;
+    left: 90px;
+    top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+}
+.student{
+    position: absolute;
+    width: 184px;
+    height: 22px;
+    left: 90px;
+    top: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+}
+
+.universityTime{
+    position: absolute;
+    width: 134px;
+    height: 22px;
+    left: 160px;
+    top: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+    background-color: #FFB400;
+    border-radius: 1px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.line{
+    position: absolute;
+    width: 901px;
+    height: 0px;
+    left: 35px;
+    top: 150px;
+    border: 1.5px solid #F0F0F6;
+}
