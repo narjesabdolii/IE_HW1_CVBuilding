@@ -30,3 +30,132 @@
     left: 0px;
     top: 0px;
 }
+
+.name{
+    position: absolute;
+    width: 142px;
+    height: 22px;
+    left: 90px;
+    top: 201px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2B2B2B;
+}
+.job{
+    position: absolute;
+    width: 143px;
+    height: 24px;
+    left: 78px;
+    top: 250px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    color: #767676;
+}
+.CircleFacebook{
+    position: absolute;
+    left: 50px;
+    top: 307px;
+}
+
+.facebook{
+    position: absolute;
+    left: 58px;
+    top: 313px;
+}
+
+.CircleInsta{
+    position: absolute;
+    left: 80px;
+    top: 307px;
+}
+
+.insta{
+    position: absolute;
+    left: 86px;
+    top: 313px;
+}
+
+.CircleTwitter{
+    position: absolute;
+    left: 110px;
+    top: 307px;
+}
+
+.twitter{
+    position: absolute;
+    left: 116px;
+    top: 314px;
+}
+
+.CircleLinkedin{
+    position: absolute;
+    left: 140px;
+    top: 307px;
+}
+
+.linkedIn{
+    position: absolute;
+    left: 146px;
+    top: 313px;
+}
+
+.CircleYoutube{
+    position: absolute;
+    left: 170px;
+    top: 307px;
+}
+
+.youtube{
+    position: absolute;
+    left: 176px;
+    top: 313px;
+}
+
+.CircleBall{
+    position: absolute;
+    left: 200px;
+    top: 307px;
+}
+
+.ball{
+    position: absolute;
+    left: 206px;
+    top: 313px;
+}
+.lineSidebar{
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    left: 40px;
+    top: 356px;
+    border: 1.5px solid #F0F0F6;
+}
+.age{
+    position: absolute;
+    width: 46px;
+    height: 24px;
+    left: 40px;
+    top: 381px;
+    background: #FFB400;
+}
+.ageText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    color: #2B2B2B;
+}
