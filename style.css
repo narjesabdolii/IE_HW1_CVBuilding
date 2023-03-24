@@ -12,7 +12,6 @@
     left: 0px;
     top: 0px;
 }
-
 .photo {
     vertical-align: middle;
     border-radius: 50%;
@@ -56,25 +55,25 @@
 
 .CircleFacebook{
     position: absolute;
-    left: 50px;
+    left: 40px;
     top: 307px;
 }
 
 .facebook{
     position: absolute;
-    left: 58px;
+    left: 48px;
     top: 313px;
 }
 
 .CircleInsta{
     position: absolute;
-    left: 80px;
+    left: 75px;
     top: 307px;
 }
 
 .insta{
     position: absolute;
-    left: 86px;
+    left: 81px;
     top: 313px;
 }
 
@@ -92,37 +91,37 @@
 
 .CircleLinkedin{
     position: absolute;
-    left: 140px;
+    left: 145px;
     top: 307px;
 }
 
 .linkedIn{
     position: absolute;
-    left: 146px;
+    left: 151px;
     top: 313px;
 }
 
 .CircleYoutube{
     position: absolute;
-    left: 170px;
+    left: 180px;
     top: 307px;
 }
 
 .youtube{
     position: absolute;
-    left: 176px;
+    left: 186px;
     top: 313px;
 }
 
 .CircleBall{
     position: absolute;
-    left: 200px;
+    left: 215px;
     top: 307px;
 }
 
 .ball{
     position: absolute;
-    left: 206px;
+    left: 221px;
     top: 313px;
 }
 
