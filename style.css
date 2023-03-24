@@ -1,7 +1,7 @@
 .page {
     position: absolute;
     background: #E5E5E5;
-    height:3099px;
+    height:2500px;
 }
 
 .sidebar {
@@ -975,3 +975,13 @@
     top: 1820px;
     color: #767676;
 }
+
+.available{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 180px;
+    top: 150px;
+}
+
+
