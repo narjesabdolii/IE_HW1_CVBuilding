@@ -1,11 +1,19 @@
+$font : 'Inter';
+$yellow : #FFB400;
+$gray : #767676;
+$black : #2B2B2B;
+$white : #FFFFFF;
+$background : #E5E5E5;
+
+
 .page {
     position: absolute;
-    background: #E5E5E5;
+    background: $background;
     height:2500px;
 }
 
 .sidebar {
-    background: #FFFFFF;
+    background: $white;
     position: absolute;
     width: 305px;
     height: 1100px;
@@ -23,7 +31,7 @@
 }
 
 .textFeatures{
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     line-height: 123.6%;
@@ -40,7 +48,7 @@
     left: 90px;
     top: 201px;
     font-size: 18px;
-    color: #2B2B2B;
+    color: $black;
 }
 
 .job{
@@ -50,7 +58,7 @@
     left: 78px;
     top: 250px;
     font-size: 15px;
-    color: #767676;
+    color: $gray;
 }
 
 .CircleFacebook{
@@ -163,8 +171,8 @@
     height: 24px;
     left: 40px;
     top: 370px;
-    color: #2B2B2B;
-    background: #FFB400;
+    color: $black;
+    background: $yellow;
     font-size: 15px;
 }
 .freelance{
@@ -173,8 +181,8 @@
     height: 24px;
     left: 40px;
     top: 404px;
-    color: #2B2B2B;
-    background: #FFB400;
+    color: $black;
+    background: $yellow;
 }
 .address{
     position: absolute;
@@ -182,8 +190,8 @@
     height: 24px;
     left: 40px;
     top: 438px;
-    color: #2B2B2B;
-    background: #FFB400;
+    color: $black;
+    background: $yellow;
 }
 
 .ageText{
@@ -192,7 +200,7 @@
     height: 19px;
     left: 240px;
     top: 370px;
-    color: #2B2B2B;
+    color: $black;
 }
 .freelanceText{
     position: absolute;
@@ -208,7 +216,7 @@
     height: 24px;
     left: 179px;
     top: 438px;
-    color: #2B2B2B;
+    color: $black;
 }
 
 .Language{
@@ -218,13 +226,13 @@
     left: 40px;
     top: 520px;
     font-size: 18px;
-    color: #2B2B2B;
+    color: $black;
 }
 
 .languageText{
     position: absolute;
     font-size: 15px;
-    color: #767676;
+    color: $gray;
     width: 53px;
     height: 24px;
 }
@@ -252,7 +260,7 @@
     left: 40px;
     top: 650px;
     font-size: 18px;
-    color: #2B2B2B;
+    color: $black;
 }
 
 .email{
@@ -314,7 +322,7 @@
     left: 40px;
     top: 820px;
     font-size: 18px;
-    color: #2B2B2B;
+    color: $black;
 }
 
 .skill2{
@@ -367,7 +375,7 @@
     height: 510.9px;
     left: 335px;
     top: 0px;
-    background:#FFFFFF;
+    background:$white;
 }
 
 .intro{
@@ -381,12 +389,12 @@
 
 .intro_font
 {
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 123.6%;
-    color: #2B2B2B;
+    color: $black;
 }
 
 .intro2{
@@ -404,14 +412,14 @@
     height: 134.4px;
     left: 50px;
     top: 200px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
-    color: #767676;
+    color: $gray;
 }
 
 .jobColor
 {
-    color:#FFB400;
+    color:$yellow;
 }
 
 
@@ -490,7 +498,7 @@
     height: 51px;
     top: 360px;
     left: 40px;
-    background: #FFB400;
+    background: $yellow;
     border-radius: 5px;
 }
 .hireMeFont{
@@ -499,7 +507,7 @@
     height: 19px;
     left: calc(50% - 65px/2 - 12.5px);
     top: 16px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -507,7 +515,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #2B2B2B;
+    color: $black;
 
 
 }
@@ -520,7 +528,7 @@
     height: 300px;
     left: 335px;
     top: 770px;
-    background: #FFFFFF;
+    background: $white;
 }
 
 .service2{
@@ -529,7 +537,7 @@
     height: 300px;
     left: 800px;
     top: 770px;
-    background: #FFFFFF;
+    background: $white;
 }
 .coding{
     position: absolute;
@@ -539,7 +547,7 @@
     top: 60px;
 }
 .font{
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     line-height: 123.6%;
@@ -553,7 +561,7 @@
     left: 140px;
     top: 150px;
     font-size: 18px;
-    color: #2B2B2B;
+    color: $black;
 }
 
 .webDevelop{
@@ -563,7 +571,7 @@
     left: 160px;
     top: 150px;
     font-size: 18px;
-    color: #2B2B2B;
+    color: $black;
 }
 
 .frontServices
@@ -574,7 +582,7 @@
     left: 140px;
     top: 200px;
     font-size: 15px;
-    color: #767676;
+    color: $gray;
 }
 .webServices{
     position: absolute;
@@ -583,7 +591,7 @@
     left: 168px;
     top: 200px;
     font-size: 15px;
-    color: #767676;
+    color: $gray;
 }
 
 .Desc1{
@@ -599,7 +607,7 @@
     height: 40px;
     left: 670px;
     top: 645px;
-    color: #767676;
+    color: $gray;
 }
 
 .education{
@@ -608,7 +616,7 @@
     height: 370px;
     left: 310px;
     top: 1307px;
-    background: #FFFFFF;
+    background: $white;
 }
 
 
@@ -618,13 +626,13 @@
     height: 22px;
     left: 90px;
     top: 50px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
+    color: $black;
 }
 .student{
     position: absolute;
@@ -632,13 +640,13 @@
     height: 22px;
     left: 90px;
     top: 120px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
+    color: $black;
 }
 
 .universityTime{
@@ -647,14 +655,14 @@
     height: 22px;
     left: 160px;
     top: 120px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
-    background-color: #FFB400;
+    color: $black;
+    background-color: $yellow;
     border-radius: 1px;
     align-content: center;
     align-items: center;
@@ -674,13 +682,13 @@
     height: 22px;
     left: 500px;
     top: 50px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
+    color: $black;
 }
 
 .Developing{
@@ -689,13 +697,13 @@
     height: 22px;
     left: 90px;
     top: 200px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
+    color: $black;
 }
 .DevelopingDesc{
     position: absolute;
@@ -703,13 +711,13 @@
     height: 22px;
     left: 500px;
     top: 200px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
+    color: $black;
 }
 .DevelopingDesc2{
     position: absolute;
@@ -717,12 +725,12 @@
     height: 22px;
     left: 500px;
     top: 250px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 123.6%;
-    color: #767676;
+    color: $gray;
 }
 .DevelopingTime{
     position: absolute;
@@ -730,14 +738,14 @@
     height: 22px;
     left: 160px;
     top: 270px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
-    background-color: #FFB400;
+    color: $black;
+    background-color: $yellow;
     border-radius: 1px;
     align-content: center;
     align-items: center;
@@ -750,13 +758,13 @@
     height: 22px;
     left: 90px;
     top: 270px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
+    color: $black;
 }
 
 .universityDesc2{
@@ -765,12 +773,12 @@
     height: 22px;
     left: 500px;
     top: 100px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 123.6%;
-    color: #767676;
+    color: $gray;
 }
 
 .EducationDesc1{
@@ -786,7 +794,7 @@
     height: 40px;
     left: 620px;
     top: 1195px;
-    color: #767676;
+    color: $gray;
 }
 
 .workHistory{
@@ -795,7 +803,7 @@
     height: 370px;
     left: 310px;
     top: 1950px;
-    background: #FFFFFF;
+    background: $white;
 }
 
 .job1{
@@ -804,13 +812,13 @@
     height: 22px;
     left: 90px;
     top: 50px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
+    color: $black;
 }
 .student{
     position: absolute;
@@ -818,13 +826,13 @@
     height: 22px;
     left: 90px;
     top: 120px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
+    color: $black;
 }
 
 .universityTime{
@@ -833,14 +841,14 @@
     height: 22px;
     left: 160px;
     top: 120px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
-    background-color: #FFB400;
+    color: $black;
+    background-color: $yellow;
     border-radius: 1px;
     align-content: center;
     align-items: center;
@@ -860,13 +868,13 @@
     height: 22px;
     left: 500px;
     top: 50px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
+    color: $black;
 }
 
 .job2{
@@ -875,13 +883,13 @@
     height: 22px;
     left: 90px;
     top: 200px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
+    color: $black;
 }
 .DevelopingDesc{
     position: absolute;
@@ -889,13 +897,13 @@
     height: 22px;
     left: 500px;
     top: 200px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
+    color: $black;
 }
 .DevelopingDesc2{
     position: absolute;
@@ -903,12 +911,12 @@
     height: 22px;
     left: 500px;
     top: 250px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 123.6%;
-    color: #767676;
+    color: $gray;
 }
 .DevelopingTime{
     position: absolute;
@@ -916,14 +924,14 @@
     height: 22px;
     left: 160px;
     top: 270px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
-    background-color: #FFB400;
+    color: $black;
+    background-color: $yellow;
     border-radius: 1px;
     align-content: center;
     align-items: center;
@@ -936,13 +944,13 @@
     height: 22px;
     left: 90px;
     top: 270px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 123.6%;
     text-transform: capitalize;
-    color: #2B2B2B;
+    color: $black;
 }
 
 .universityDesc2{
@@ -951,12 +959,12 @@
     height: 22px;
     left: 500px;
     top: 100px;
-    font-family: 'Inter';
+    font-family: $font;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 123.6%;
-    color: #767676;
+    color: $gray;
 }
 
 .workDesc1{
@@ -972,7 +980,7 @@
     height: 40px;
     left: 675px;
     top: 1820px;
-    color: #767676;
+    color: $gray;
 }
 
 .available{
