@@ -143,6 +143,16 @@
     top: 500px;
 }
 
+.line3Position {
+    left: 40px;
+    top: 630px;
+}
+
+.line4Position {
+    left: 40px;
+    top: 810px;
+}
+
 .age{
     position: absolute;
     width: 46px;
@@ -155,7 +165,7 @@
 }
 .freelance{
     position: absolute;
-    width: 60px;
+    width: 70px;
     height: 24px;
     left: 40px;
     top: 404px;
@@ -196,3 +206,77 @@
     top: 438px;
     color: #2B2B2B;
 }
+
+.Language{
+    position: absolute;
+    width: 95px;
+    height: 22px;
+    left: 40px;
+    top: 520px;
+    font-size: 18px;
+    color: #2B2B2B;
+}
+
+.languageText{
+    position: absolute;
+    font-size: 15px;
+    color: #767676;
+    width: 53px;
+    height: 24px;
+}
+.persian{
+    left: 40px;
+    top: 555px;
+}
+.english{
+    left: 40px;
+    top: 595px;
+}
+.persianLevel{
+    left: 200px;
+    top: 555px;
+}
+
+.englishLevel{
+    left: 200px;
+    top: 595px;
+}
+.contact{
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    left: 40px;
+    top: 650px;
+    font-size: 18px;
+    color: #2B2B2B;
+}
+
+.email{
+    left: 40px;
+    top: 690px;
+}
+.phone{
+    left: 40px;
+    top: 734px;
+}
+
+.telegram{
+    left: 40px;
+    top: 778px;
+}
+
+.emailText{
+    left: 120px;
+    top: 690px;
+}
+.phoneText{
+    left: 120px;
+    top: 734px;
+}
+
+.telegramText{
+    left: 120px;
+    top: 778px;
+}
+
+
