@@ -3,3 +3,12 @@
     background: #E5E5E5;
     height:3099px;
 }
+
+.service1{
+    position: absolute;
+    width: 450px;
+    height: 325px;
+    left: 335px;
+    top: 788px;
+    background: #FFFFFF;
+}
