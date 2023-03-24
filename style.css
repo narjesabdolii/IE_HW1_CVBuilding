@@ -513,3 +513,92 @@
 
 }
 
+
+
+.service1{
+    position: absolute;
+    width: 430px;
+    height: 300px;
+    left: 335px;
+    top: 770px;
+    background: #FFFFFF;
+}
+
+.service2{
+    position: absolute;
+    width: 430px;
+    height: 300px;
+    left: 800px;
+    top: 770px;
+    background: #FFFFFF;
+}
+.coding{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 170px;
+    top: 60px;
+}
+.font{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+
+.frontDevelop{
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    left: 140px;
+    top: 150px;
+    font-size: 18px;
+    color: #2B2B2B;
+}
+
+.webDevelop{
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    left: 160px;
+    top: 150px;
+    font-size: 18px;
+    color: #2B2B2B;
+}
+
+.frontServices
+{
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    left: 140px;
+    top: 200px;
+    font-size: 15px;
+    color: #767676;
+}
+.webServices{
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    left: 168px;
+    top: 200px;
+    font-size: 15px;
+    color: #767676;
+}
+
+.Desc1{
+    position: absolute;
+    width: 193px;
+    height: 40px;
+    left: 713px;
+    top: 605px;
+}
+.Desc2{
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 670px;
+    top: 645px;
+    color: #767676;
+}
