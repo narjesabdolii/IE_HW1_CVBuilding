@@ -7,7 +7,7 @@
 .introduction{
     position: absolute;
     width: 950px;
-    height: 531.9px;
+    height: 510.9px;
     left: 335px;
     top: 0px;
     background:#FFFFFF;
@@ -68,7 +68,7 @@
 
 .circleGreenSize{
     left: 100px;
-    top: 480.64px;
+    top: 470.64px;
     border: 2px solid rgba(5, 255, 0, 0.8);
 }
 
@@ -114,13 +114,13 @@
 .polygon{
     position: absolute;
     left: 900px;
-    top: 500px;
+    top: 480px;
 }
 
 .image1{
     position: absolute;
     width: 325.72px;
-    height: 522.89px;
+    height: 500.9px;
     left: 570.68px;
     top: 9.11px;
 }
@@ -131,7 +131,7 @@
     align-items: center;
     width: 150px;
     height: 51px;
-    top: 380px;
+    top: 360px;
     left: 40px;
     background: #FFB400;
     border-radius: 5px;
